@@ -1,0 +1,205 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "products": [
+    {
+      "id": "1",
+      "imgUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "name": "Modern Sofa",
+      "price": 1200,
+      "cat_id": 2,
+      "views": 100
+    },
+    {
+      "id": "2",
+      "imgUrl": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
+      "name": "Wooden Dining Table",
+      "price": 850,
+      "cat_id": 4,
+      "views": 240
+    },
+    {
+      "id": "3",
+      "imgUrl": "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=800&q=80",
+      "name": "Office Chair",
+      "price": 320,
+      "cat_id": 1,
+      "views": 90
+    },
+    {
+      "id": "4",
+      "imgUrl": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80",
+      "name": "King Size Bed",
+      "price": 1450,
+      "cat_id": 3,
+      "views": 180
+    },
+    {
+      "id": "5",
+      "imgUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "name": "Minimalist Wardrobe",
+      "price": 980,
+      "cat_id": 2,
+      "views": 110
+    },
+    {
+      "id": "6",
+      "imgUrl": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "name": "Coffee Table",
+      "price": 270,
+      "cat_id": 1,
+      "views": 130
+    },
+    {
+      "id": "7",
+      "imgUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "name": "Luxury Couch",
+      "price": 1700,
+      "cat_id": 4,
+      "views": 400
+    },
+    {
+      "id": "8",
+      "imgUrl": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80",
+      "name": "Bookshelf",
+      "price": 430,
+      "cat_id": 3,
+      "views": 210
+    },
+    {
+      "id": "9",
+      "imgUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "name": "TV Stand",
+      "price": 520,
+      "cat_id": 2,
+      "views": 95
+    },
+    {
+      "id": "10",
+      "imgUrl": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=800&q=80",
+      "name": "Gaming Desk",
+      "price": 760,
+      "cat_id": 1,
+      "views": 310
+    },
+    {
+      "id": "11",
+      "imgUrl": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=800&q=80",
+      "name": "Dining Chair Set",
+      "price": 600,
+      "cat_id": 4,
+      "views": 155
+    },
+    {
+      "id": "12",
+      "imgUrl": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "name": "Nightstand",
+      "price": 180,
+      "cat_id": 3,
+      "views": 88
+    },
+    {
+      "id": "13",
+      "imgUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "name": "Corner Sofa",
+      "price": 2100,
+      "cat_id": 2,
+      "views": 470
+    },
+    {
+      "id": "14",
+      "imgUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "name": "Sliding Wardrobe",
+      "price": 1350,
+      "cat_id": 1,
+      "views": 205
+    },
+    {
+      "id": "15",
+      "imgUrl": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80",
+      "name": "Round Dining Table",
+      "price": 920,
+      "cat_id": 4,
+      "views": 145
+    },
+    {
+      "id": "16",
+      "imgUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "name": "Leather Recliner",
+      "price": 980,
+      "cat_id": 3,
+      "views": 370
+    },
+    {
+      "id": "17",
+      "imgUrl": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=800&q=80",
+      "name": "Executive Desk",
+      "price": 1250,
+      "cat_id": 2,
+      "views": 260
+    },
+    {
+      "id": "18",
+      "imgUrl": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80",
+      "name": "Queen Bed Frame",
+      "price": 1100,
+      "cat_id": 1,
+      "views": 140
+    },
+    {
+      "id": "19",
+      "imgUrl": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=800&q=80",
+      "name": "Bar Stool Set",
+      "price": 340,
+      "cat_id": 4,
+      "views": 175
+    },
+    {
+      "id": "20",
+      "imgUrl": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80",
+      "name": "Storage Cabinet",
+      "price": 690,
+      "cat_id": 3,
+      "views": 230
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Living Room",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1046/1046857.png"
+    },
+    {
+      "id": "2",
+      "name": "Dining",
+      "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+    },
+    {
+      "id": "3",
+      "name": "Office",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png"
+    },
+    {
+      "id": "4",
+      "name": "Bedroom",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2933/2933186.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+
+  ]
+}
