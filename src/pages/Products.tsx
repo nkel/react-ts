@@ -42,7 +42,7 @@ function Products(){
 
     const filteredData = useMemo(() =>{
         return allProducts.filter( product => product.name.toLowerCase().includes(searchValue))
-    } , [searchValue]);
+    } , [allProducts, searchValue]);
 
 
     const handleSearchProd = () =>{
