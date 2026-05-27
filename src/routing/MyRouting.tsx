@@ -1,19 +1,21 @@
 import {Route, Routes} from "react-router";
-import Layout from "../layout/Layout.tsx";
-import Home from "../pages/Home.tsx";
-import Products from "../pages/Products.tsx";
+
+import Test4 from "../pages/Test4.tsx";
 
 function MyRouting() {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
 
-            <Route path="/products" element={<Products />} />
-            {/*<Route path="/:slug" element={<Test />} />*/}
-            <Route path="/test" element={<Layout />}>
-                <Route index element={<Home />} />
+            <Route path="/" element={<Test4 />} />
+            {/*<Route path="/" element={<Layout />} >*/}
+            {/*    <Route index element={<Home />} />*/}
+            {/*/!*<Route path="/products" element={<Products />} />*!/*/}
 
-            </Route>
+            {/*/!*<Route path="/test" element={<Layout />}>*!/*/}
+            {/*/!*    <Route index element={<Home />} />*!/*/}
+
+            {/*/!*</Route>*!/*/}
+            {/*</Route>*/}
 
         </Routes>
         )

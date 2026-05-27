@@ -1,8 +1,10 @@
+import DarkModeBtn from "../components/DarkModeBtn.tsx";
+
 
 
 export default function Header() {
   return (
-    <nav className="relative top-6 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-6xl flex items-center justify-between px-8 py-4 bg-stone-200/70 backdrop-blur-md rounded-full border border-stone-300/50">
+    <nav className="relative top-6 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-6xl flex items-center justify-between px-8 py-4 text-black dark:text-white dark:bg-gray-700 bg-stone-200/70 backdrop-blur-md rounded-full border border-stone-300/50">
       {/* Logo */}
       <span className="font-playfair text-xl font-bold text-stone-900 tracking-wide whitespace-nowrap">
         Serene Spaces
@@ -33,6 +35,7 @@ export default function Header() {
         <button className="px-5 py-2 border border-stone-800 text-stone-900 text-sm font-medium rounded-full hover:bg-stone-800 hover:text-white transition-colors">
           Contact Us
         </button>
+          <DarkModeBtn/>
       </div>
     </nav>
   );
